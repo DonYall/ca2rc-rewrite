@@ -19,10 +19,13 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background-image: linear-gradient(180deg, transparent, #0000ff25 40%, transparent 75%, #0000ff25 100%), url("./assets/stars.jpg");
+  width: 100%;
+}
+
+.root-page {
+  background-image: linear-gradient(180deg, transparent, #0000ff25 100%), url("./assets/stars.jpg");
   background-size: 100vw auto;
   background-repeat: repeat-y;
-  width: 100%;
 }
 
 body::-webkit-scrollbar {
