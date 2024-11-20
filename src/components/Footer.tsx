@@ -23,7 +23,7 @@ function Footer() {
             <FaLinkedinIn /> CA2RC
           </a>
         </div>
-        <p className="text-white">© 2024 Carleton Aerospace Astrophysics Radio Club</p>
+        <p className="text-white text-right">© 2024 Carleton Aerospace Astrophysics Radio Club</p>
       </div>
     </footer>
   );

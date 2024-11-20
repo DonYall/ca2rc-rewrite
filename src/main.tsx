@@ -5,6 +5,7 @@ import "./index.css";
 import Root from "./pages/root/Root.tsx";
 import Join from "./pages/join/Join.tsx";
 import Team from "./pages/team/Team.tsx";
+import ProjectPage from "./pages/projects/Projects.tsx";
 import NotFound from "./pages/error/NotFound.tsx";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/team",
     element: <Team />,
+  },
+  {
+    path: "/projects/:slug",
+    element: <ProjectPage />,
   },
 ]);
 

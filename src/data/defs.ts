@@ -3,11 +3,7 @@ export type Project = {
   desc: string;
   images: string[];
   overview: string;
-  methods: string;
   mission: string;
-  propulsion: string;
-  expectedOutcomes: string;
-  concreteOutcomes: string;
 };
 
 export type Subsystem = {
